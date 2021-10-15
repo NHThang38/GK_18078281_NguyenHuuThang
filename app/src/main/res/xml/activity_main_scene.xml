@@ -68,10 +68,24 @@
             android:layout_height="163dp"
             motion:layout_constraintEnd_toEndOf="parent"
             android:layout_width="280dp"
-            android:id="@+id/textView5"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintHorizontal_bias="0.564"
             motion:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="180dp" />
+        <Constraint
+            android:id="@+id/textView5"
+            android:layout_width="330dp"
+            android:layout_height="142dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="172dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintHorizontal_bias="0.493" />
+        <Constraint
+            motion:layout_editor_absoluteY="56dp"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="275dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageView7" />
     </ConstraintSet>
 </MotionScene>
