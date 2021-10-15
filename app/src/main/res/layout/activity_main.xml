@@ -63,7 +63,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtNameSong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="336dp"
@@ -76,7 +76,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtNameSinger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -84,12 +84,12 @@
         android:textColor="#B11935"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintEnd_toEndOf="@+id/txtNameSong"
+        app:layout_constraintStart_toStartOf="@+id/txtNameSong"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameSong" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/Play"
         android:layout_width="39dp"
         android:layout_height="42dp"
         android:layout_marginBottom="48dp"
@@ -99,24 +99,24 @@
         app:srcCompat="@drawable/phat" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/prev"
         android:layout_width="39dp"
         android:layout_height="42dp"
         android:layout_marginEnd="44dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/Play"
+        app:layout_constraintEnd_toStartOf="@+id/Play"
+        app:layout_constraintTop_toTopOf="@+id/Play"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/lai" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/next"
         android:layout_width="39dp"
         android:layout_height="42dp"
         android:layout_marginStart="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/Play"
+        app:layout_constraintStart_toEndOf="@+id/Play"
+        app:layout_constraintTop_toTopOf="@+id/Play"
         app:srcCompat="@drawable/qua" />
 
     <TextView
@@ -125,8 +125,10 @@
         android:layout_height="wrap_content"
         android:alpha="0"
         android:text="@string/loibaihat"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="366dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"

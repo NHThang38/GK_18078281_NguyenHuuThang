@@ -45,7 +45,7 @@
             motion:layout_constraintHorizontal_bias="0.263"
             motion:layout_constraintEnd_toEndOf="parent"
             android:layout_width="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/txtNameSong" />
         <Constraint
             android:layout_height="47dp"
             motion:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
             motion:layout_constraintHorizontal_bias="0.548"
             motion:layout_constraintEnd_toEndOf="parent"
             android:layout_width="39dp"
-            android:id="@+id/imageView4" />
+            android:id="@+id/Play" />
         <Constraint
             android:layout_height="163dp"
             motion:layout_constraintEnd_toEndOf="parent"
